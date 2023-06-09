@@ -1,7 +1,7 @@
 package main
 
 import (
-	"pemagic/mybin1"
+	"pemagic/mybin1/api"
 	"log"
 	"net/http"
 	"os"
