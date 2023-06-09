@@ -1,7 +1,7 @@
 package web
 
 import (
-	"adams549659584/go-proxy-bingai/common"
+	"pemagic/mybin1/common"
 	"embed"
 	"io/fs"
 	"net/http"

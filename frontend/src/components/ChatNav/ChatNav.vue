@@ -37,7 +37,7 @@ const navConfigs = [
   {
     key: navType.github,
     label: '开源地址',
-    url: 'https://github.com/adams549659584/go-proxy-bingai',
+    url: 'https://github.com/pemagic/mybin1',
   },
   {
     key: navType.version,

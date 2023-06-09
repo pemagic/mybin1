@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: go-proxy-bingai
+    name: mybin1
     # oregon: frankfurt
     plan: free
     env: go
-    buildCommand: go build -ldflags="-s -w" -tags netgo -trimpath -o go-proxy-bingai main.go
-    startCommand: ./go-proxy-bingai
+    buildCommand: go build -ldflags="-s -w" -tags netgo -trimpath -o mybin1 main.go
+    startCommand: ./mybin1

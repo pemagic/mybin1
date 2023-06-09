@@ -1,8 +1,8 @@
 package api
 
 import (
-	"adams549659584/go-proxy-bingai/api/helper"
-	"adams549659584/go-proxy-bingai/common"
+	"pemagic/mybin1/api/helper"
+	"pemagic/mybin1/common"
 	"net/http"
 	"strings"
 )

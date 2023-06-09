@@ -44,7 +44,7 @@ tasks:
     cmds:
       - |
         GOOS={{.GOOS}} GOARCH={{.GOARCH}} GOARM={{.GOARM}} GOMIPS={{.GOMIPS}} GOAMD64={{.GOAMD64}} \
-        go build -tags netgo -trimpath -o release/go-proxy-bingai_{{.TASK}} -ldflags \
+        go build -tags netgo -trimpath -o release/mybin1_{{.TASK}} -ldflags \
         "-w -s -X 'main.version={{.BUILD_VERSION}}' -X 'main.buildDate={{.BUILD_DATE}}' -X 'main.commitID={{.COMMIT_ID}}'"
   linux_386:
     cmds:
@@ -228,8 +228,8 @@ tasks:
         }        
   docker:
     cmds:
-      - docker build -t adams549659584/go-proxy-bingai:{{.BUILD_VERSION}} -f docker/Dockerfile .
-      - docker tag adams549659584/go-proxy-bingai:{{.BUILD_VERSION}} adams549659584/go-proxy-bingai
+      - docker build -t pemagic/mybin1:{{.BUILD_VERSION}} -f docker/Dockerfile .
+      - docker tag pemagic/mybin1:{{.BUILD_VERSION}} pemagic/mybin1
   default:
     cmds:
       - task: clean

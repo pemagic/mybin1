@@ -1,11 +1,11 @@
 version: '3'
 
 services:
-  go-proxy-bingai:
+  mybin1:
     # 镜像名称
-    image: adams549659584/go-proxy-bingai
+    image: pemagic/mybin1
     # 容器名称
-    container_name: go-proxy-bingai  
+    container_name: mybin1  
     # 自启动
     restart: unless-stopped
     ports:
@@ -17,11 +17,11 @@ services:
     #   - Go_Proxy_BingAI_USER_TOKEN_1=xxx
     #   - Go_Proxy_BingAI_USER_TOKEN_2=xxx
   
-#   go-proxy-bingai:
+#   mybin1:
 #     # 镜像名称
-#     image: adams549659584/go-proxy-bingai
+#     image: pemagic/mybin1
 #     # 容器名称
-#     container_name: go-proxy-bingai
+#     container_name: mybin1
 #     build:
 #       context: ../
 #       dockerfile: docker/Dockerfile      

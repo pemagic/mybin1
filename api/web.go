@@ -1,9 +1,9 @@
 package api
 
 import (
-	"adams549659584/go-proxy-bingai/api/helper"
-	"adams549659584/go-proxy-bingai/common"
-	"adams549659584/go-proxy-bingai/web"
+	"pemagic/mybin1/api/helper"
+	"pemagic/mybin1/common"
+	"pemagic/mybin1/web"
 	"net/http"
 )
 
